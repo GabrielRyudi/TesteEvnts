@@ -1,1 +1,0 @@
-onClick={this.buscar.bind()}
