@@ -81,7 +81,7 @@ class Landing extends Component {
 											</div>
 										</Col>
 										<Col sm={24} lg={7} >
-											<Button color='green' className='buttonPesquisar'><Link style={{color: '#fff', textDecoration:'none'}} to='/lista'>BUSCAR</Link></Button>
+											<Link style={{color: '#fff', textDecoration:'none'}} to='/lista'><Button color='green' className='buttonPesquisar'>BUSCAR</Button></Link>
 										</Col>
 									</Row>
 								</Grid>
