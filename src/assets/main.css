@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;800&display=swap');
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.mainDiv{
+	overflow: hidden;
+	height: 100vh;
+	width: 100%;
+	background-image: url('../assets/imgs/uaifood/bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.holder{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.header{
+	background: transparent;
+	width: 100%;
+	padding: 1rem 0;
+}
+
+.logo{
+	width: 14%;
+	height: 8vh;
+	margin: 0 auto;
+}
+
+.logo > img{
+	width: 100%;
+	height: 100%;
+}
+
+.logoL{
+	width: 75%;
+	height: 8vh;
+	margin: 0 auto;
+}
+
+.logoL > img{
+	width: 100%;
+	height: 100%;
+}
+
+.contentPesquisa{
+	width: 100%;
+}
+
+.pesquisa{
+	width: 50%;
+	margin: auto;
+	margin-top: 8rem;
+}
+
+.titlePesquisa{
+	font-size: 30pt;
+	font-weight: 800;
+	color: #fff;
+	margin-bottom: 2rem;
+}
+
+.pesquisaInput{
+	font-size: 15pt;
+	font-weight: 300;
+	color: #767676;
+	border-radius: 0;
+	padding-left: 0.4rem;
+}
+
+.cidades{
+	max-height: 25vh;
+	overflow: auto;
+	width: 100%;
+}
+.cidadeDisplay{
+	background: white;
+	padding: 0.5rem;
+}
+
+.cidadeDisplay > p{
+	font-weight: 300;
+	font-size: 15pt;
+	color: #484848;
+	cursor: pointer;
+	margin: 0;
+}
+
+.cidadeDisplay > p:nth-child(2){
+	font-weight: 300;
+	font-size: 10pt;
+	color: #767676;
+	cursor: pointer;
+	margin: 0;
+}
+
+.rs-icon{
+	font-size: 15pt;
+}
+
+.buttonPesquisar{
+	font-size: 15pt;
+	font-weight: 600;
+	color: #fff;
+	width: 100%;
+	border-radius: 0;
+}
+
+.menuSide{
+	padding: 0.6rem 1rem;
+}
+
+.dividerType{
+	font-weight: 300;
+	font-size: 11pt;
+	color: #A5A5A5;
+	text-transform: uppercase;
+	margin-top: 0.6rem;
+	margin-bottom: 1rem;
+}
+
+.dividerType:first-child{
+	font-weight: 300;
+	font-size: 11pt;
+	color: #A5A5A5;
+	text-transform: uppercase;
+	margin-top: 0rem;
+	margin-bottom: 1rem;
+}
+
+.rs-checkbox-checker{
+	padding: 0;
+	min-height: 0;
+	margin-bottom: 0.3rem;
+}
+
+.rs-checkbox label{
+	line-height: 0;
+	font-weight: 300;
+	font-size: 11pt;
+	color: #484848;
+}
+
+.rs-checkbox-wrapper{
+	position:static!important;
+	margin-right: 0.3rem;
+}
+
+.optionSide{
+	padding: 0.6rem 0rem;
+}
+
+.restauranteTitle{
+	font-weight:600;
+	color: #333;
+	font-size: 18pt;
+	margin-bottom: 1.4rem;
+}
+
+.holderCard{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.cardRest{
+	width: 33.33%;
+	padding-right: 1.3rem;
+	margin-bottom: 1.5rem;
+}
+
+.cardRest:last-child{
+	padding-right: 0;
+}
+
+.cardHolder{
+	border: 1px solid #A5A5A5;
+	box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+}
+
+.cardHead{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 25vh;
+}
+
+.cardHead > img{
+	width: 100%;
+	height: 100%;
+}
+
+.cardBody{
+	margin: 0;
+	padding: 0.6rem 0.6rem;
+}
+
+.cardTitle{
+	font-weight: 600;
+	font-size: 16pt;
+	color: #333;
+	margin: 0;
+}
+
+.cardSubTitle{
+	font-weight: 300;
+	font-size: 11pt;
+	color: #A5A5A5;
+	margin: 0;
+	margin-bottom: 0.4rem;
+}
+
+.cardRating{
+	color: #39b54a;
+	font-size: 11pt;
+	margin-bottom: 0.9rem;
+}
+
+.tagVerde{
+	font-size: 11pt;
+	color: white;
+	background: #39b54a;
+	font-weight: 300;
+	font-size: 11pt;
+	padding: 0.2rem 0.6rem;
+}
+
+.tagCinza{
+	font-size: 11pt;
+	color: #484848;
+	background: #A5A5A5;
+	font-weight: 300;
+	font-size: 11pt;
+	padding: 0.2rem 0.6rem;
+}
+
+.menuBusca{
+	width: 100%;
+}
+
+.menuBusca > input{
+	font-size: 13pt;
+	font-weight: 300;
+	color: #767676;
+	border-radius: 0;
+}
+
+.menuBusca > button{
+	font-weight: 300;
+	font-size: 15pt;
+	border-radius: 0;
+	width: 100%;
+}
+
+.menuBusca > .rs-icon{
+	font-size: 15pt!important;
+}
+
+.cidadesLista{
+	max-height: 40vh;
+	overflow: auto;
+	width: 100%;
+	position: absolute;
+	background: white;
+	z-index: 2000;
+	box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+}
+
+.cidadeDisplayMenu{
+	background: white;
+	padding: 0.5rem 0 0.5rem 0.5rem;
+}
+
+.cidadeDisplayMenu > p{
+	font-weight: 300;
+	font-size: 15pt;
+	color: #484848;
+	cursor: pointer;
+	margin: 0;
+}
+
+.cidadeDisplayMenu > p:nth-child(2){
+	font-weight: 300;
+	font-size: 10pt;
+	color: #767676;
+	cursor: pointer;
+	margin: 0;
+}
